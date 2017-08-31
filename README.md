@@ -7,3 +7,4 @@ NodeJS学习笔记
 # 文件目录说明
 ## basic node基础模块的使用例子
  - ![node-dns(2017-08-30)](https://github.com/mvpzx/node-learning/tree/master/basic/node-dns)
+ - ![node-zlib(2017-08-31)](https://github.com/mvpzx/node-learning/tree/master/basic/node-zlib)
