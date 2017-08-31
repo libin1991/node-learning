@@ -33,7 +33,7 @@
 # 函数调用说明
  - dns.lookupService(ip, port, callback)
  使用`getnameinfo`获取传入的ip地址和端口对应的主机和服务。
- （使用的是系统配置文件）
+ （受系统配置文件影响）
 
  ```
  var dns = require('dns');
@@ -74,7 +74,7 @@
  ```
  var dns = require('dns');
 
- dns.reverse('192.30.255.133', (err, hostnames) => {
+ dns.reverse('192.30.255.112', (err, hostnames) => {
  	if (err) {
  		throw err;
  	}
