@@ -8,3 +8,5 @@ NodeJS学习笔记
 ## basic node基础模块的使用例子
  - ![node-dns(2017-08-30)](https://github.com/mvpzx/node-learning/tree/master/basic/node-dns)
  - ![node-zlib(2017-08-31)](https://github.com/mvpzx/node-learning/tree/master/basic/node-zlib)
+ - ![node-upload-express&multer(2017-09-02)](https://github.com/mvpzx/node-learning/tree/master/basic/node-upload-express%26multer)
+ - ![node-http(2017-09-03)](https://github.com/mvpzx/node-learning/tree/master/basic/node-http)

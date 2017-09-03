@@ -154,7 +154,7 @@ multer提供了**storage**来对资源路径、名称进行自定义。
 - destination: 设置资源的保存路径，默认/tmp/uploads
 - filename: 设置保存的资源的文件名
 
-< app.js
+* app.js
 ```
 let fs = require('fs');
 let express = require('express');
@@ -230,7 +230,7 @@ app.listen(3100);
 
 ```
 
-< index2.html
+* index2.html
 ```
 <form action="/upload" method="post" enctype="multipart/form-data">
 	<h2>单文件上传</h2>
