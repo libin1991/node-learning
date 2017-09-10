@@ -1,3 +1,7 @@
+# 前言
+本人所发的NodeJS系列学习笔记参考了一些书籍、官方文档以及一些前辈的代码及注释，可能有些地方理解的不对。如果有误，欢迎到我的[github](https://github.com/mvpzx/node-learning)上提出。当然，希望可以点个星星。
+
+
 # 基于express+multer的文件上传
 
 ## 安装依赖
@@ -240,3 +244,5 @@ app.listen(3100);
 	<button type="submit" class="btn btn-default">上传</button>
 </form>
 ```
+
+> [源码地址](https://github.com/mvpzx/node-learning/tree/master/basic/node-upload-express%26multer)
