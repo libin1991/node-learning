@@ -3,5 +3,4 @@
  */
 const path = require('path');
 
-// 输出：/node-path
-console.log(path.dirname('/node-path/test.html'));
+console.log(path.dirname('/node-learning/basic/node-path/test.html')); // 输出：/node-learning/basic/node-path

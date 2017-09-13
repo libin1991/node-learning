@@ -3,4 +3,4 @@
  */
 const path = require('path');
 
-console.log(path.basename('./test.html'));
+console.log(path.basename('./test.html')); // 输出：test.html
