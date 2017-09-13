@@ -8,20 +8,20 @@
 
 该方法会返回路径的最后一部分。
 
-    ```
+    
     /**
     * 获取文件名
     */
     const path = require('path');
     console.log(path.basename('./test.html')); // 输出：test.html
-    ```
+    
 
 ### path.dirname(path)
 - `path`<string>
 
 该方法会返回路径下的文件夹名。
 
-    ```
+ 
     /**
     * 获取文件夹名
     */
@@ -29,14 +29,13 @@
 
     console.log(path.dirname('/node-path/test.html')); // 输出：/node-path
     console.log(path.dirname('/node-learning/basic/node-path/test.html')); // 输出：/node-learning/basic/node-path
-    ```
+   
 
 ### path.extname(path)
 - `path`<string>
 
 该函数会返回文件的扩展名。
 
-    ```
     /**
     * 获取文件扩展名
     */
@@ -45,7 +44,7 @@
     let file = 'test.html';
 
     console.log(path.extname(file)); // 输出：.html
-    ```
+   
 
 ### path.format(pathObject)
 * `pathObject`<Object>
@@ -57,7 +56,7 @@
 
 与`path.parse()`相反，该函数会返回一个格式化的路径。
 
-    ```
+   
     /**
     * 格式化路径
     */
@@ -80,14 +79,14 @@
 
     // 输出：/node-path\test.html
     console.log(path2);
-    ```
+    
 
 ### path.parse(path)
 - `path`<string>
 
 该函数做与`path.format()`相反的工作。
 
-    ```
+    
     /** 
     * 解析路径
     */
@@ -116,4 +115,4 @@
     }
     */
     console.log(path.parse(pathFile2));
-    ```
+   
