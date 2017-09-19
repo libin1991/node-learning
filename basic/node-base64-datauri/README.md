@@ -1,11 +1,30 @@
 # NodeJs 提取图片转为dataURI嵌入到网页
 
+## 字符串的base64编码解码
+
+```
+/**
+ * 字符串base64编码解码
+ */
+let str = "Hello World!";
+
+/* bse64编码 */
+let sb = new Buffer(str);
+let base64Str = sb.toString('base64');
+console.log(base64Str);
+
+/* base64解码 */
+let deStr = new Buffer(base64Str, 'base64');
+console.log(deStr.toString());
+
+```
+
 ## 提取图片二进制数据并转为dataURI
 
 ```
 /**
  * NodeJs读取图片二进制数据转为base64再转成对应的dataURI
- */ 
+ */
 const fs = require('fs');
 
 let filePath = './flowers.jpg';
@@ -18,7 +37,7 @@ fs.readFile(filePath, null, (err, data) => {
 	let binaryData = data;
 	let base64Str = binaryData.toString('base64');
 	let dataURI = 'data:image/jpg;base64,' + base64Str;
-	
+
 	console.log(dataURI);
 })
 
