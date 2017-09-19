@@ -16,3 +16,4 @@ NodeJS学习笔记
 - [node-process(2017-09-18)](https://github.com/mvpzx/node-learning/tree/master/basic/node-process)
 - [node-cluster(2017-09-19)](https://github.com/mvpzx/node-learning/tree/master/basic/node-cluster)
 - [node-console(2017-09-19)](https://github.com/mvpzx/node-learning/tree/master/basic/node-console)
+- [node-events(2017-09-19)](https://github.com/mvpzx/node-learning/tree/master/basic/node-events)
