@@ -18,3 +18,5 @@ NodeJS学习笔记
 - [node-console(2017-09-19)](https://github.com/mvpzx/node-learning/tree/master/basic/node-console)
 - [node-events(2017-09-19)](https://github.com/mvpzx/node-learning/tree/master/basic/node-events)
 - [node-util(2017-09-21)](https://github.com/mvpzx/node-learning/tree/master/basic/node-util)
+- [node-url(2017-09-22)](https://github.com/mvpzx/node-learning/tree/master/basic/node-url)
+- [node-querystring(2017-09-21)](https://github.com/mvpzx/node-learning/tree/master/basic/node-querystring)
