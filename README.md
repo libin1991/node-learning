@@ -19,6 +19,7 @@ NodeJS学习笔记
 - [node-url(2017-09-22)](https://github.com/mvpzx/node-learning/tree/master/basic/node-url)
 - [node-querystring(2017-09-21)](https://github.com/mvpzx/node-learning/tree/master/basic/node-querystring)
 - [node-readline(2017-09-21)](https://github.com/mvpzx/node-learning/tree/master/basic/node-readline)
+- [node-charset(2017-09-30)](https://github.com/mvpzx/node-learning/tree/master/basic/node-charset)
 
 ## 进阶
 - [node-base64-datauri(2017-09-14)](https://github.com/mvpzx/node-learning/tree/master/advance/node-base64-datauri)
